@@ -7,7 +7,7 @@ interface ThemeToggleProps {
 /**
  * Switches between light and dark. Before the user picks either, the app is
  * following the operating system — the title says so, and a double-click on the
- * button hands control back to the system setting.
+ * button hands control back to the system setting
  */
 export function ThemeToggle({ className = '' }: ThemeToggleProps) {
   const { theme, followsSystem, toggleTheme, useSystemTheme } = useTheme()
