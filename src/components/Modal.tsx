@@ -8,7 +8,7 @@ interface ModalProps {
 }
 
 /**
- * A small dialog with the focus handling you would expect: focus moves into the
+ * A small dialog with the focus handling ,you would expect: focus moves into the
  * panel when it opens and returns to whatever opened it when it closes, Tab is
  * trapped inside, and Escape dismisses it.
  */
