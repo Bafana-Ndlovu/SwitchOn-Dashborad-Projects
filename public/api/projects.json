@@ -1,0 +1,79 @@
+[
+  {
+    "id": "p1",
+    "name": "Apollo Mobile Banking App",
+    "client": "Sandton Mutual Bank",
+    "description": "A cross-platform mobile banking client with biometric login, instant payments and a spending insights feed. Currently in the hardening phase before the public beta.",
+    "status": "active",
+    "startDate": "2026-03-02",
+    "dueDate": "2026-08-14",
+    "memberIds": ["m1", "m3", "m5", "m7"],
+    "tags": ["mobile", "fintech", "react-native"]
+  },
+  {
+    "id": "p2",
+    "name": "Helios Marketing Site Redesign",
+    "client": "Helios Energy",
+    "description": "Full rebuild of the public marketing site on a headless CMS, with a new design language, a case-study library and a 90+ Lighthouse performance budget.",
+    "status": "active",
+    "startDate": "2026-05-11",
+    "dueDate": "2026-08-05",
+    "memberIds": ["m2", "m4", "m1"],
+    "tags": ["web", "cms", "design"]
+  },
+  {
+    "id": "p3",
+    "name": "Orion Data Platform Migration",
+    "client": "Orion Logistics",
+    "description": "Migration of a legacy on-premise warehouse database to a managed cloud data platform, including a dual-write period and a full reconciliation report.",
+    "status": "on-hold",
+    "startDate": "2026-02-16",
+    "dueDate": "2026-09-30",
+    "memberIds": ["m3", "m6", "m8"],
+    "tags": ["infrastructure", "data", "migration"]
+  },
+  {
+    "id": "p4",
+    "name": "Vega Customer Support Portal",
+    "client": "Vega Telecom",
+    "description": "Self-service support portal with ticket tracking, a searchable knowledge base and live chat hand-off. Delivered and signed off by the client.",
+    "status": "completed",
+    "startDate": "2026-01-12",
+    "dueDate": "2026-06-20",
+    "memberIds": ["m2", "m4", "m5"],
+    "tags": ["web", "support", "delivered"]
+  },
+  {
+    "id": "p5",
+    "name": "Lyra Design System",
+    "client": "Internal",
+    "description": "A shared component library and token set that every SwitchOn product consumes, documented in Storybook and published to the internal package registry.",
+    "status": "active",
+    "startDate": "2026-04-06",
+    "dueDate": "2026-07-31",
+    "memberIds": ["m4", "m1", "m2"],
+    "tags": ["design-system", "internal", "tooling"]
+  },
+  {
+    "id": "p6",
+    "name": "Pegasus Internal Analytics",
+    "client": "Internal",
+    "description": "A company-wide analytics workspace giving each team self-serve dashboards over the shared warehouse. Kick-off complete, task breakdown still to be written.",
+    "status": "active",
+    "startDate": "2026-07-20",
+    "dueDate": "2026-10-15",
+    "memberIds": ["m8", "m6"],
+    "tags": ["analytics", "internal"]
+  },
+  {
+    "id": "p7",
+    "name": "Nova Onboarding Revamp",
+    "client": "Nova Health",
+    "description": "Rework of the patient onboarding flow, cutting it from eleven screens to four and adding progressive document capture. Shipped ahead of schedule.",
+    "status": "completed",
+    "startDate": "2025-11-24",
+    "dueDate": "2026-05-29",
+    "memberIds": ["m4", "m7", "m5"],
+    "tags": ["web", "healthcare", "delivered"]
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "id": "t1",
+    "projectId": "p1",
+    "title": "Wire biometric login to the auth service",
+    "description": "Hook Face ID and fingerprint unlock into the existing token exchange, with a PIN fallback when the device has no enrolled biometrics.",
+    "status": "completed",
+    "priority": "high",
+    "assigneeId": "m7",
+    "dueDate": "2026-07-10",
+    "createdAt": "2026-06-22"
+  },
+  {
+    "id": "t2",
+    "projectId": "p1",
+    "title": "Instant payment confirmation screen",
+    "description": "Build the success state shown after a payment clears, including the share-receipt action and the retry path for timeouts.",
+    "status": "in-progress",
+    "priority": "high",
+    "assigneeId": "m1",
+    "dueDate": "2026-07-30",
+    "createdAt": "2026-07-01"
+  },
+  {
+    "id": "t3",
+    "projectId": "p1",
+    "title": "Fix duplicate transactions in the spending feed",
+    "description": "Pending and settled versions of the same transaction both render. De-duplicate on the reference number and prefer the settled record.",
+    "status": "in-progress",
+    "priority": "urgent",
+    "assigneeId": "m3",
+    "dueDate": "2026-07-24",
+    "createdAt": "2026-07-14"
+  },
+  {
+    "id": "t4",
+    "projectId": "p1",
+    "title": "Accessibility audit of the transfer flow",
+    "description": "Screen-reader pass over all five transfer steps, checking focus order, labels and contrast against WCAG 2.2 AA.",
+    "status": "todo",
+    "priority": "medium",
+    "assigneeId": "m5",
+    "dueDate": "2026-08-06",
+    "createdAt": "2026-07-18"
+  },
+  {
+    "id": "t5",
+    "projectId": "p1",
+    "title": "Beta release notes and store listing",
+    "description": "Draft the public beta notes, refresh the store screenshots and get the copy signed off by the client's compliance team.",
+    "status": "todo",
+    "priority": "low",
+    "assigneeId": null,
+    "dueDate": "2026-08-12",
+    "createdAt": "2026-07-20"
+  },
+  {
+    "id": "t6",
+    "projectId": "p1",
+    "title": "Penetration test remediation",
+    "description": "Close the three medium findings from the external pen test: certificate pinning, clipboard scrubbing and session timeout handling.",
+    "status": "in-review",
+    "priority": "urgent",
+    "assigneeId": "m3",
+    "dueDate": "2026-07-28",
+    "createdAt": "2026-07-09"
+  },
+  {
+    "id": "t7",
+    "projectId": "p1",
+    "title": "Offline mode for the account summary",
+    "description": "Cache the last successful balance response so the summary card still renders when the device drops connectivity.",
+    "status": "todo",
+    "priority": "medium",
+    "assigneeId": "m7",
+    "dueDate": "2026-08-11",
+    "createdAt": "2026-07-21"
+  },
+  {
+    "id": "t8",
+    "projectId": "p1",
+    "title": "Regression suite for the payments module",
+    "description": "Automate the twenty-two manual payment scenarios currently run by hand before every release.",
+    "status": "completed",
+    "priority": "medium",
+    "assigneeId": "m5",
+    "dueDate": "2026-07-04",
+    "createdAt": "2026-06-15"
+  },
+
+  {
+    "id": "t9",
+    "projectId": "p2",
+    "title": "Migrate case studies into the headless CMS",
+    "description": "Move all thirty-one case studies across, map the legacy fields to the new schema and set up redirects from the old URLs.",
+    "status": "in-progress",
+    "priority": "high",
+    "assigneeId": "m2",
+    "dueDate": "2026-07-29",
+    "createdAt": "2026-06-30"
+  },
+  {
+    "id": "t10",
+    "projectId": "p2",
+    "title": "Homepage hero animation",
+    "description": "Implement the scroll-linked hero animation from the approved motion spec, with a reduced-motion variant.",
+    "status": "completed",
+    "priority": "medium",
+    "assigneeId": "m1",
+    "dueDate": "2026-07-08",
+    "createdAt": "2026-06-18"
+  },
+  {
+    "id": "t11",
+    "projectId": "p2",
+    "title": "Cut the largest contentful paint below 2s",
+    "description": "The hero image and the web font are both blocking. Preload the font subset and serve the hero as AVIF with a responsive srcset.",
+    "status": "in-review",
+    "priority": "high",
+    "assigneeId": "m1",
+    "dueDate": "2026-07-25",
+    "createdAt": "2026-07-06"
+  },
+  {
+    "id": "t12",
+    "projectId": "p2",
+    "title": "Design the sustainability report template",
+    "description": "A reusable long-form layout for the annual sustainability report, with pull quotes, data callouts and a downloadable summary.",
+    "status": "in-progress",
+    "priority": "medium",
+    "assigneeId": "m4",
+    "dueDate": "2026-08-01",
+    "createdAt": "2026-07-11"
+  },
+  {
+    "id": "t13",
+    "projectId": "p2",
+    "title": "Cookie consent and analytics wiring",
+    "description": "Add a consent banner that gates analytics until the visitor opts in, defaulting every non-essential category to off.",
+    "status": "todo",
+    "priority": "medium",
+    "assigneeId": null,
+    "dueDate": "2026-08-03",
+    "createdAt": "2026-07-17"
+  },
+  {
+    "id": "t14",
+    "projectId": "p2",
+    "title": "Content freeze and final copy review",
+    "description": "Lock the copy deck, run it past legal and hand the final version to the client for sign-off before launch.",
+    "status": "todo",
+    "priority": "high",
+    "assigneeId": "m2",
+    "dueDate": "2026-08-04",
+    "createdAt": "2026-07-19"
+  },
+  {
+    "id": "t15",
+    "projectId": "p2",
+    "title": "Set up the staging environment",
+    "description": "Preview deployments per pull request, seeded with a sanitised copy of the production content.",
+    "status": "completed",
+    "priority": "low",
+    "assigneeId": "m1",
+    "dueDate": "2026-06-26",
+    "createdAt": "2026-06-08"
+  },
+
+  {
+    "id": "t16",
+    "projectId": "p3",
+    "title": "Schema mapping document",
+    "description": "Map every legacy table and column to its target equivalent, flagging the fourteen columns with no clean destination.",
+    "status": "completed",
+    "priority": "high",
+    "assigneeId": "m8",
+    "dueDate": "2026-04-30",
+    "createdAt": "2026-03-12"
+  },
+  {
+    "id": "t17",
+    "projectId": "p3",
+    "title": "Dual-write adapter",
+    "description": "Write to both the legacy database and the new platform during the cut-over window, with a reconciliation job comparing the two nightly.",
+    "status": "in-progress",
+    "priority": "high",
+    "assigneeId": "m3",
+    "dueDate": "2026-07-15",
+    "createdAt": "2026-05-20"
+  },
+  {
+    "id": "t18",
+    "projectId": "p3",
+    "title": "Load test the new warehouse",
+    "description": "Replay a month of production query traffic against the new platform and record the p95 latency per query class.",
+    "status": "todo",
+    "priority": "medium",
+    "assigneeId": "m6",
+    "dueDate": "2026-09-04",
+    "createdAt": "2026-06-02"
+  },
+  {
+    "id": "t19",
+    "projectId": "p3",
+    "title": "Roll-back runbook",
+    "description": "Document the exact steps to fall back to the legacy database, including the data window that would be lost at each stage.",
+    "status": "todo",
+    "priority": "urgent",
+    "assigneeId": "m6",
+    "dueDate": "2026-09-11",
+    "createdAt": "2026-06-24"
+  },
+  {
+    "id": "t20",
+    "projectId": "p3",
+    "title": "Client sign-off on the migration window",
+    "description": "Agree the eight-hour maintenance window with Orion operations and confirm it clears their month-end processing.",
+    "status": "in-review",
+    "priority": "high",
+    "assigneeId": "m8",
+    "dueDate": "2026-07-22",
+    "createdAt": "2026-07-02"
+  },
+
+  {
+    "id": "t21",
+    "projectId": "p4",
+    "title": "Ticket tracking timeline",
+    "description": "A per-ticket activity timeline showing every status change, agent note and customer reply in one thread.",
+    "status": "completed",
+    "priority": "high",
+    "assigneeId": "m2",
+    "dueDate": "2026-03-27",
+    "createdAt": "2026-02-04"
+  },
+  {
+    "id": "t22",
+    "projectId": "p4",
+    "title": "Knowledge base search",
+    "description": "Typo-tolerant search across all published articles with keyboard navigation of the results.",
+    "status": "completed",
+    "priority": "high",
+    "assigneeId": "m4",
+    "dueDate": "2026-04-17",
+    "createdAt": "2026-02-19"
+  },
+  {
+    "id": "t23",
+    "projectId": "p4",
+    "title": "Live chat hand-off",
+    "description": "Escalate a self-service session to a human agent, carrying the full context of what the customer already tried.",
+    "status": "completed",
+    "priority": "medium",
+    "assigneeId": "m2",
+    "dueDate": "2026-05-15",
+    "createdAt": "2026-03-30"
+  },
+  {
+    "id": "t24",
+    "projectId": "p4",
+    "title": "Full accessibility sweep",
+    "description": "WCAG 2.2 AA audit across the whole portal, with fixes for the nine issues raised.",
+    "status": "completed",
+    "priority": "medium",
+    "assigneeId": "m5",
+    "dueDate": "2026-06-05",
+    "createdAt": "2026-05-06"
+  },
+  {
+    "id": "t25",
+    "projectId": "p4",
+    "title": "Hand-over documentation",
+    "description": "Architecture notes, deployment guide and support runbook handed to the Vega internal team.",
+    "status": "completed",
+    "priority": "low",
+    "assigneeId": "m5",
+    "dueDate": "2026-06-19",
+    "createdAt": "2026-06-01"
+  },
+
+  {
+    "id": "t26",
+    "projectId": "p5",
+    "title": "Colour and spacing token set",
+    "description": "Define the full token scale, including the dark theme mapping, and publish it as both CSS variables and a JSON export.",
+    "status": "completed",
+    "priority": "high",
+    "assigneeId": "m4",
+    "dueDate": "2026-05-08",
+    "createdAt": "2026-04-09"
+  },
+  {
+    "id": "t27",
+    "projectId": "p5",
+    "title": "Form primitives",
+    "description": "Input, select, checkbox, radio and field-error components, all with proper labelling and error announcement.",
+    "status": "completed",
+    "priority": "high",
+    "assigneeId": "m1",
+    "dueDate": "2026-06-12",
+    "createdAt": "2026-05-11"
+  },
+  {
+    "id": "t28",
+    "projectId": "p5",
+    "title": "Data table component",
+    "description": "Sortable, paginated table with a sticky header, a column-visibility menu and a sensible mobile fallback.",
+    "status": "in-progress",
+    "priority": "high",
+    "assigneeId": "m1",
+    "dueDate": "2026-07-26",
+    "createdAt": "2026-06-15"
+  },
+  {
+    "id": "t29",
+    "projectId": "p5",
+    "title": "Storybook documentation pass",
+    "description": "Usage guidance, do/don't examples and prop tables for every component that has shipped so far.",
+    "status": "in-review",
+    "priority": "medium",
+    "assigneeId": "m4",
+    "dueDate": "2026-07-30",
+    "createdAt": "2026-07-03"
+  },
+  {
+    "id": "t30",
+    "projectId": "p5",
+    "title": "Publish v1.0 to the internal registry",
+    "description": "Cut the first stable release, write the changelog and announce the migration path off the old shared styles package.",
+    "status": "todo",
+    "priority": "urgent",
+    "assigneeId": "m2",
+    "dueDate": "2026-07-31",
+    "createdAt": "2026-07-16"
+  },
+  {
+    "id": "t31",
+    "projectId": "p5",
+    "title": "Dark theme audit across products",
+    "description": "Check every consuming product against the dark token mapping and log the contrast failures.",
+    "status": "todo",
+    "priority": "low",
+    "assigneeId": null,
+    "dueDate": "2026-08-07",
+    "createdAt": "2026-07-22"
+  },
+
+  {
+    "id": "t32",
+    "projectId": "p7",
+    "title": "Map the existing eleven-screen flow",
+    "description": "Session recordings and drop-off analysis for each step of the current onboarding journey.",
+    "status": "completed",
+    "priority": "high",
+    "assigneeId": "m4",
+    "dueDate": "2025-12-19",
+    "createdAt": "2025-11-26"
+  },
+  {
+    "id": "t33",
+    "projectId": "p7",
+    "title": "Progressive document capture",
+    "description": "Let patients upload identity documents later without losing their place in the flow.",
+    "status": "completed",
+    "priority": "high",
+    "assigneeId": "m7",
+    "dueDate": "2026-03-06",
+    "createdAt": "2026-01-15"
+  },
+  {
+    "id": "t34",
+    "projectId": "p7",
+    "title": "Four-screen flow build",
+    "description": "Implement the condensed journey behind a feature flag and run it as a 50/50 experiment.",
+    "status": "completed",
+    "priority": "high",
+    "assigneeId": "m7",
+    "dueDate": "2026-04-24",
+    "createdAt": "2026-02-23"
+  },
+  {
+    "id": "t35",
+    "projectId": "p7",
+    "title": "Experiment read-out and roll-out",
+    "description": "Completion rate rose from 61% to 84%. Ramp the new flow to 100% and retire the old screens.",
+    "status": "completed",
+    "priority": "medium",
+    "assigneeId": "m5",
+    "dueDate": "2026-05-27",
+    "createdAt": "2026-05-04"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "a1",
+    "projectId": "p1",
+    "memberId": "m3",
+    "message": "picked up \"Fix duplicate transactions in the spending feed\"",
+    "timestamp": "2026-07-26T14:12:00Z"
+  },
+  {
+    "id": "a2",
+    "projectId": "p1",
+    "memberId": "m5",
+    "message": "moved \"Penetration test remediation\" to In Review",
+    "timestamp": "2026-07-25T09:40:00Z"
+  },
+  {
+    "id": "a3",
+    "projectId": "p1",
+    "memberId": "m1",
+    "message": "commented on \"Instant payment confirmation screen\"",
+    "timestamp": "2026-07-24T16:05:00Z"
+  },
+  {
+    "id": "a4",
+    "projectId": "p1",
+    "memberId": "m7",
+    "message": "completed \"Wire biometric login to the auth service\"",
+    "timestamp": "2026-07-10T11:22:00Z"
+  },
+  {
+    "id": "a5",
+    "projectId": "p2",
+    "memberId": "m2",
+    "message": "imported 18 of 31 case studies into the CMS",
+    "timestamp": "2026-07-26T08:55:00Z"
+  },
+  {
+    "id": "a6",
+    "projectId": "p2",
+    "memberId": "m1",
+    "message": "moved \"Cut the largest contentful paint below 2s\" to In Review",
+    "timestamp": "2026-07-25T13:31:00Z"
+  },
+  {
+    "id": "a7",
+    "projectId": "p2",
+    "memberId": "m4",
+    "message": "uploaded the sustainability report layout for review",
+    "timestamp": "2026-07-23T10:14:00Z"
+  },
+  {
+    "id": "a8",
+    "projectId": "p3",
+    "memberId": "m8",
+    "message": "requested sign-off on the migration window",
+    "timestamp": "2026-07-22T15:47:00Z"
+  },
+  {
+    "id": "a9",
+    "projectId": "p3",
+    "memberId": "m6",
+    "message": "paused the project pending client budget approval",
+    "timestamp": "2026-07-18T09:02:00Z"
+  },
+  {
+    "id": "a10",
+    "projectId": "p3",
+    "memberId": "m3",
+    "message": "deployed the dual-write adapter to staging",
+    "timestamp": "2026-07-15T17:20:00Z"
+  },
+  {
+    "id": "a11",
+    "projectId": "p4",
+    "memberId": "m5",
+    "message": "closed the project — signed off by Vega Telecom",
+    "timestamp": "2026-06-20T12:00:00Z"
+  },
+  {
+    "id": "a12",
+    "projectId": "p4",
+    "memberId": "m5",
+    "message": "handed the support runbook to the Vega team",
+    "timestamp": "2026-06-19T14:38:00Z"
+  },
+  {
+    "id": "a13",
+    "projectId": "p5",
+    "memberId": "m4",
+    "message": "opened the Storybook documentation pass for review",
+    "timestamp": "2026-07-26T11:09:00Z"
+  },
+  {
+    "id": "a14",
+    "projectId": "p5",
+    "memberId": "m1",
+    "message": "added column-visibility support to the data table",
+    "timestamp": "2026-07-24T15:52:00Z"
+  },
+  {
+    "id": "a15",
+    "projectId": "p5",
+    "memberId": "m2",
+    "message": "scheduled the v1.0 release for 31 July",
+    "timestamp": "2026-07-21T08:30:00Z"
+  },
+  {
+    "id": "a16",
+    "projectId": "p6",
+    "memberId": "m8",
+    "message": "ran the project kick-off workshop",
+    "timestamp": "2026-07-20T10:00:00Z"
+  },
+  {
+    "id": "a17",
+    "projectId": "p6",
+    "memberId": "m6",
+    "message": "provisioned the analytics workspace",
+    "timestamp": "2026-07-21T13:45:00Z"
+  },
+  {
+    "id": "a18",
+    "projectId": "p7",
+    "memberId": "m5",
+    "message": "ramped the new onboarding flow to 100% of patients",
+    "timestamp": "2026-05-27T16:10:00Z"
+  }
+]

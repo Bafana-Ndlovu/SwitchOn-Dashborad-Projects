@@ -1,0 +1,58 @@
+[
+  {
+    "id": "m1",
+    "name": "Bafana Ndlovu",
+    "role": "Frontend Lead",
+    "email": "bafana@switchon.dev",
+    "color": "bg-indigo-600"
+  },
+  {
+    "id": "m2",
+    "name": "Zinhle Nhlapo",
+    "role": "Product Manager",
+    "email": "zinhle@switchon.dev",
+    "color": "bg-rose-600"
+  },
+  {
+    "id": "m3",
+    "name": "Paul Buthelezi",
+    "role": "Backend Engineer",
+    "email": "paul@switchon.dev",
+    "color": "bg-emerald-700"
+  },
+  {
+    "id": "m4",
+    "name": "Sijabulile Ncube",
+    "role": "UI/UX Designer",
+    "email": "sijabulile@switchon.dev",
+    "color": "bg-amber-700"
+  },
+  {
+    "id": "m5",
+    "name": "Bao Kekane",
+    "role": "QA Engineer",
+    "email": "bao@switchon.dev",
+    "color": "bg-sky-700"
+  },
+  {
+    "id": "m6",
+    "name": "Mhlengi",
+    "role": "DevOps Engineer",
+    "email": "mhlengi@switchon.dev",
+    "color": "bg-violet-600"
+  },
+  {
+    "id": "m7",
+    "name": "Mnelisi Maswanganyi",
+    "role": "Mobile Developer",
+    "email": "mnelisi@switchon.dev",
+    "color": "bg-teal-700"
+  },
+  {
+    "id": "m8",
+    "name": "Boikanyo Mokoka",
+    "role": "Data Analyst",
+    "email": "boikanyo@switchon.dev",
+    "color": "bg-fuchsia-700"
+  }
+]
