@@ -133,6 +133,18 @@ This project was completed collaboratively by:
 - **Mhlengi Ngwenya**
 - **Bheki Buthelezi**
 
+---
+
+## 👥 Team Contributions
+
+| Team Member | Contribution |
+|------------|--------------|
+| **Sijabulile Ncube** | Project planning, development, testing, documentation and Git collaboration. |
+| **Bafana Ndlovu** |Project planning, Repository owner, project setup, development and collaboration management. |
+| **Bao Kekana** | Developed the **Project Completion Celebration** feature using `canvas-confetti`, including the congratulatory notification and session-based celebration logic. |
+| **Mhlengi Ngwenya** | Development, testing and project demonstration (Loom presentation). |
+| **Bheki Buthelezi** | Development, feature implementation, testing and collaboration. |
+
 ## Planning
 
 Before any code was written, the team held several planning sessions using **Google Meet**. These meetings allowed everyone to contribute ideas and agree on the overall direction of the application.
@@ -219,7 +231,7 @@ Before running the project, ensure you have:
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/<your-repository>.git
+git clone https://github.com/Bafana-Ndlovu/SwitchOn-Dashborad-Projects.git
 ```
 
 ---
@@ -283,7 +295,7 @@ npm run lint
 **Live Application**
 
 🔗 **Vercel:**  
-`<https://switch-on-dashboarad-projects.vercel.app/>`
+`<https://switch-on-dashborad-projects.vercel.app/>`
 
 ---
 
