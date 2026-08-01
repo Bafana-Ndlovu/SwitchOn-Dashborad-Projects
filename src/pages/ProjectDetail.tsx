@@ -1,3 +1,4 @@
+import { CompletionCelebration } from '../components/CompletionCelebration'
 import { useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { Avatar } from '../components/Avatar'
@@ -87,6 +88,11 @@ export default function ProjectDetail() {
         <span className="mx-2 text-slate-500 dark:text-slate-400">/</span>
         <span className="text-slate-700 dark:text-slate-300">{project.name}</span>
       </nav>
+
+      <CompletionCelebration
+        trigger={progress.percent === 100}
+        projectId={project.id}
+      />
 
       <header className="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-6 sm:p-8">
         <div className="flex flex-wrap items-start justify-between gap-4">
