@@ -59,13 +59,13 @@ export default function Home() {
         <div className="mt-9 flex flex-col gap-3 sm:flex-row">
           <Link
             to="/dashboard"
-            className="rounded-xl bg-white px-6 py-3 text-center text-sm font-semibold text-indigo-700 transition hover:bg-indigo-50"
+            className="rounded-xl bg-white px-6 py-3 text-center text-sm font-semibold text-indigo-700 transition hover:bg-indigo-50 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-700"
           >
             Open the dashboard
           </Link>
           <Link
             to="/projects"
-            className="rounded-xl border border-white/40 px-6 py-3 text-center text-sm font-semibold text-white transition hover:bg-white/10"
+            className="rounded-xl border border-white/40 px-6 py-3 text-center text-sm font-semibold text-white transition hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-700"
           >
             Browse projects
           </Link>
