@@ -295,7 +295,7 @@ npm run lint
 **Live Application**
 
 🔗 **Vercel:**  
-`<https://switch-on-dashborad-projects.vercel.app/>`
+https://switch-on-dashborad-projects.vercel.app/
 
 ---
 
