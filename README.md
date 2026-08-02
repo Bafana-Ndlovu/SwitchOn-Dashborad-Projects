@@ -307,7 +307,7 @@ A complete walkthrough of the application was recorded by:
 
 **Loom Presentation**
 
-🔗 `https://www.loom.com/share/5a027fdc04534df4a903ad0f78745fe7`
+🔗 https://www.loom.com/share/5a027fdc04534df4a903ad0f78745fe7
 
 ---
 
